@@ -1,0 +1,12 @@
+
+*.csv
+*.xlsx
+
+
+__pycache__/
+.DS_Store
+
+.conda/
+env/
+venv/
+.venv/
