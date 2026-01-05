@@ -8,6 +8,11 @@ This project analyzes high-frequency trading data for Gold (XAU/USD) and Euro (E
 * **Holding Time Analysis:** FIFO (First-In-First-Out) matching to classify trades as Intraday vs. Swing and calculate average duration.
 * **Risk & P/L Monitoring:** Cumulative exposure and profit/loss tracking with weekly/monthly drill-down capabilities.
 
+## Project Results
+* **[View Dashboard Snapshot (PDF)](Dashboard_Snapshot.pdf)** - *Click here to see the final visualization.*
+* `trading_analysis.py` - The main Python ETL script.
+* `Trading_Dashboard.pbix` - The source Power BI file.
+
 ## Generated Output Files
 This script processes the raw data and generates two specific files for the dashboard:
 1. `processed_trading_activity.csv`: Main dataset containing the "Is_Toxic" flags and cleaned trade details.
